@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Library | Book Search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Open Library</h1>
+    <p>Search for books and discover your next read.</p>
+
+    <form class="search" id="searchForm">
+        <input type="search" id="term"
+            placeholder="Search by title, author, or topic"
+            aria-label="Search terms">
+        <button type="submit" id="searchButton">Search</button>
+    </form>
+
+    <div id="status" aria-live="polite"></div>
+</header>
+
+<main>
+
+    <section>
+        <h2>Search Results</h2>
+        <div id="results"></div>
+
+        <div class="pager" id="pager" hidden>
+            <button type="button" id="previous">Previous</button>
+            <span id="pageInfo">Page 1 of 1</span>
+            <button type="button" id="next">Next</button>
+        </div>
+    </section>
+
+    <section id="detailsSection">
+        <h2>Book Details</h2>
+        <div id="book">
+            <p class="muted">Select a book to view its details.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Fantasy Collection</h2>
+        <p class="muted">Explore books from the Fantasy collection.</p>
+        <div id="collection"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p class="muted">
+        Data source:
+        <a href="https://openlibrary.org" target="_blank">Open Library</a>
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
