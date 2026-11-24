@@ -1,0 +1,19 @@
+MILESTONE 4 – IMPROVED SPA UI
+Name: Rebeca Jimenez
+
+Live Azure application: [PASTE YOUR LIVE AZURE URL]
+GitHub repository: [PASTE YOUR GITHUB REPOSITORY URL]
+
+SCREENSHOT CHECKLIST
+1. Search results rendered with Mustache.js
+2. Grid View
+3. List View
+4. Pagination showing the current page (for example, Page 2 of 5)
+5. Selected-book details displayed in the SPA
+6. Fantasy collection and navigation between Search Results and Fantasy
+7. Responsive/mobile layout
+
+REPORT EXPLANATION (400–500 WORDS)
+[Write 400–500 words explaining how Mustache.js separates presentation from data processing, how Grid/List switching works without a reload, and how the updated navigation, details panel, pagination, responsive styling, and feedback states improve Milestone 3. Add brief explanations beneath each original screenshot.]
+
+IMPORTANT: Add your own screenshots from the running application and replace both URLs before submitting. Do not submit this template with placeholders.
